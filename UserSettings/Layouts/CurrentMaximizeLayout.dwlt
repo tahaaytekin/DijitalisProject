@@ -86,7 +86,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -225,9 +225,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 3627feff
-      m_LastClickedID: -121034
-      m_ExpandedIDs: 7229feff5230feffb046feff6e0effff4242ffff727cffff0c87ffffd8c1ffff36fbffffa05d0000365f0000525f0000
+      m_SelectedIDs: 5e5e0000
+      m_LastClickedID: 24158
+      m_ExpandedIDs: 7229feff6e0effff4242ffff727cffff0c87ffffd8c1ffff36fbffffa05d0000365f0000525f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -387,7 +387,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
-      displayed: 0
+      displayed: 1
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
@@ -503,9 +503,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 7.941989, y: 0.7864035, z: -0.7928311}
+    m_Target: {x: 6, y: 3.1999998, z: -25.330002}
     speed: 2
-    m_Value: {x: 7.941989, y: 0.7864035, z: -0.7928311}
+    m_Value: {x: 6, y: 3.1999998, z: -25.330002}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -556,9 +556,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.079243295, y: 0.065744415, z: -0.0052365423, w: 0.9946712}
   m_Size:
-    m_Target: 1.4226528
+    m_Target: 12.124356
     speed: 2
-    m_Value: 1.4226528
+    m_Value: 12.124356
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -773,8 +773,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 3627feff
-    m_LastClickedInstanceID: -121034
+    m_SelectedInstanceIDs: 5e5e0000
+    m_LastClickedInstanceID: 24158
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000000000000
     m_RenameOverlay:
