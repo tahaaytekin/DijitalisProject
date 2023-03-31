@@ -11,7 +11,7 @@ public class UIManager : MonoBehaviour
 {
     Button btn;
     Raf currentRaf;
-    public TextMeshProUGUI currentRemainingTimeTxt, currentMassTxt, currentContentType;
+    public TextMeshProUGUI currentRemainingTimeTxt, currentMassTxt, currentContentType, adressTxt;
     public GameObject choosePanel, uiButton, adreessContentDataPanel;
     public void OpenPanel()
     {
@@ -24,7 +24,7 @@ public class UIManager : MonoBehaviour
         currentRaf = null;
         GameObject go = EventSystem.current.currentSelectedGameObject;
         currentRaf = go.GetComponentInParent<Raf>();
-
+        adressTxt.text = "Adress: " + currentRaf.addressType.ToString();
         currentRemainingTimeTxt.text = "Remaining Time : " + currentRaf.remainingTime.ToString();
 
         currentMassTxt.text = "Mass Type : " + currentRaf.massType.ToString();
